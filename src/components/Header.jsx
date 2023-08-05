@@ -3,15 +3,21 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 
 function Header() {
   return (
-    <Container>
-      <Navbar className="navbar">
-        <Navbar.Brand>Icon</Navbar.Brand>
-        <Nav classname="justify-content-end">
+    <Navbar className="navbar" fixed="top">
+      <Container>
+        <Navbar.Brand className="d-flex align-items-center">
+          <img
+            src="https://raw.githubusercontent.com/Mttphan261/portfolio/main/.github/pfp.jpg"
+            alt="Icon"
+            className="header-icon"
+          />
+        </Navbar.Brand>
+        <Nav className="justify-content-end">
           <Nav.Link>Projects</Nav.Link>
           <Nav.Link>Contact</Nav.Link>
         </Nav>
-      </Navbar>
-    </Container>
+      </Container>
+    </Navbar>
   );
 }
 

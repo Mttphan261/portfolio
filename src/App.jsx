@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import './App.css'
+import { useState } from "react";
+import Header from "./components/Header";
+import About from "./components/About";
+import "bootstrap/dist/css/bootstrap.css";
+import "./stylesheet/styles.css";
+import { Container } from 'react-bootstrap'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Header />
+      <Container>
+        <About />
+      </Container>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
