@@ -1,32 +1,22 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap"
+import { Row, Col, Container } from "react-bootstrap";
 
 function About() {
   return (
     <div className="about-container">
-      <h1 className="name">Matt Phan</h1>
+      <h1 className="name typewriter">Matt Phan</h1>
       <h3 className="bio">
         Oh yo! What's going on brother what brings you in today? DUDE - you look
         huge. Oh ladies what's good!?
       </h3>
       <div className="about-box">
-      <Row className="console-head">
-        <Col className="console-category">
-            PROBLEMS
-        </Col>
-        <Col className="console-category">
-            OUTPUT
-        </Col>
-        <Col className="console-category">
-            DEBUG CONSOLE
-        </Col>
-        <Col className="console-category">
-            TERMINAL
-        </Col>
-        <Col className="console-category">
-            GITLENS
-        </Col>
-      </Row>
+        <Container className = 'categories'>
+          <p className="console-category">PROBLEMS</p>
+          <p className="console-category">OUTPUT</p>
+          <p className="console-category">DEBUG CONSOLE</p>
+          <p className="console-category" id="terminal">TERMINAL</p>
+          <p className="console-category">GITLENS</p>
+        </Container>
         <div className="statement">
           <div className="input-statement">Matt.currentLocation</div>
           <div className="return-statement">"Dallas, TX"</div>
