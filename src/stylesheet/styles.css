@@ -1,126 +1,151 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap");
 
 #root {
-    background-color: #EFFFFB;
-    --darkCyan: #009A98;
+  background-color: #effffb;
+  --darkCyan: #009a98;
 }
 
-html, body {
-    background-color: #EFFFFB;
-    margin-top: 100px;
+html,
+body {
+  background-color: #effffb;
+  margin-top: 100px;
 }
 
 * {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
 }
 
 /* *****NAVBAR***** */
 
 .navbar {
-    position: fixed;
-    top: 0;
-    height: 100px;
-    z-index: 1000;
-    background-color: #EFFFFB;
-  }
-  
-  
-  .header-icon {
-    width: 75px;
-    height: 75px;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
-  /* *****NAVBAR***** */
-  
-  
-  /* *****ABOUT***** */
-  
-  .name {
-    color: var(--darkCyan);
-    font-size: 4.5em;
-    font-weight: medium;
-  }
+  position: fixed;
+  top: 0;
+  height: 100px;
+  z-index: 1000;
+  background-color: #effffb;
+}
 
-  .about-container {
-    margin-top: 20vh;
-  }
+.header-icon {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  vertical-align: middle;
+}
 
-  .bio {
-    margin: 80px 0px;
-  }
+/* *****NAVBAR***** */
 
-  .about-box {
-    background-color: #002950;
-    color: #FFF;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
-  }
+/* *****ABOUT***** */
 
-  .console-head {
-    margin-bottom: 25px;
-    margin-left: 35px;
-    margin-right: 35px;
-    line-height: 24px;
-    flex-direction: row;
-  }
+.name {
+  color: var(--darkCyan);
+  font-size: 4.5em;
+  font-weight: medium;
+}
 
-  .categories {
-    padding-bottom: 25px;
-    margin-left: 12px;
-  }
+.about-container {
+  margin-top: 20vh;
+}
 
-  .console-category {
-    /* flex: 1; */
-    /* text-align: left; */
-    padding: 0; 
-    display: inline-block;
-    margin: 0 10px
-  }
+.bio {
+  margin: 80px 0px;
+}
 
-  #terminal {
-    text-decoration: underline;
-    text-decoration-color: orange;
-    text-underline-offset: 8px;
-  }
+.about-box {
+  background-color: #002950;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+}
 
-  .statement:first-child {
-    padding-top: 35px;
-  }
+.console-head {
+  margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+  line-height: 24px;
+  flex-direction: row;
+}
 
-  .statement {
-    margin-bottom: 25px;
-    margin-left: 35px;
-    margin-right: 35px;
-    line-height: 24px;
-  }
-  
-  .statement:last-child {
-    padding-bottom: 35px;
-  }
-  
-  /* *****ABOUT***** */
+.categories {
+  padding-bottom: 25px;
+  margin-left: 12px;
+}
 
-  /* **** TYPEWRITER **** */
-  .typewriter {
-    overflow: hidden; 
-    border-right: .15em solid black;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+.console-category {
+  /* flex: 1; */
+  /* text-align: left; */
+  padding: 0;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#terminal {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-underline-offset: 8px;
+}
+
+.statement:first-child {
+  padding-top: 35px;
+}
+
+.statement {
+  margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+  line-height: 24px;
+}
+
+.statement:last-child {
+  padding-bottom: 35px;
+}
+
+/* *****ABOUT***** */
+
+/* **** TYPEWRITER **** */
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
   }
-  
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+  to {
+    width: 100%;
   }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
   }
-    /* **** TYPEWRITER **** */
+  50% {
+    border-color: black;
+  }
+}
+/* **** TYPEWRITER **** */
+
+/* *****Carousel***** */
+
+
+.project-image {
+  width: 75%;
+  margin: 0 auto;
+  opacity: 80%;
+}
+
+.carousel-caption {
+  background-color: var(--darkCyan);
+  width: 75%;
+  margin: 0;
+  left: 0;
+  right: 0;
+  bottom: -0.75rem;
+}
+/* *****Carousel***** */
