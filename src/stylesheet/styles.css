@@ -131,21 +131,43 @@ body {
 }
 /* **** TYPEWRITER **** */
 
-/* *****Carousel***** */
+/* ****PROJECTS**** */
 
-
-.project-image {
-  width: 75%;
-  margin: 0 auto;
-  opacity: 80%;
+.section-header {
+  color: var(--darkCyan);
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 
-.carousel-caption {
-  background-color: var(--darkCyan);
-  width: 75%;
-  margin: 0;
-  left: 0;
-  right: 0;
-  bottom: -0.75rem;
+.project-card {
+  height: 100%;
 }
-/* *****Carousel***** */
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-skill {
+  border-radius: 4px;
+  border: 2px solid #92eac0;
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: .85em;
+}
+
+/* ****PROJECTS**** */
