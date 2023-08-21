@@ -110,7 +110,7 @@ function Projects() {
             </Card>
           </Col>
         </Row>
-      </div>
+      </div> 
     </>
   );
 }

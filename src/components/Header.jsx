@@ -13,8 +13,8 @@ function Header() {
           />
         </Navbar.Brand>
         <Nav className="justify-content-end">
-          <Nav.Link>Projects</Nav.Link>
-          <Nav.Link>Contact</Nav.Link>
+          <Nav.Link className='links'>Projects</Nav.Link>
+          <Nav.Link className='links'>Contact</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
