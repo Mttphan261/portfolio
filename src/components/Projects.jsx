@@ -14,7 +14,7 @@ function Projects() {
           <Row sm={1} md={3}>
             <Col>
               <Card className="project-card">
-                <Card.Img src="https://raw.githubusercontent.com/Mttphan261/portfolio/main/.github/imgs/Artboard%201.png" />
+                <Card.Img src="https://raw.githubusercontent.com/Mttphan261/portfolio/main/.github/imgs/labassistantfolio2.png" />
                 <Card.Body className="project-body">
                   <Card.Title>The Street Fighter Lab Assistant</Card.Title>
                   <Card.Text>
