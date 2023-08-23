@@ -1,20 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 
 function About() {
   return (
     <div className="about-container">
-      <h1 className="name typewriter">Matt Phan</h1>
+      <h1 className="name">Matt Phan</h1>
       <h3 className="bio">
-        Oh yo! What's going on brother what brings you in today? DUDE - you look
-        huge. Oh ladies what's good!?
+        I am a software engineer with a passion for crafting user-friendly
+        experiences. Explore my projects below.
       </h3>
       <div className="about-box">
-        <Container className = 'categories'>
+        <Container className="categories">
           <p className="console-category">PROBLEMS</p>
           <p className="console-category">OUTPUT</p>
           <p className="console-category">DEBUG CONSOLE</p>
-          <p className="console-category" id="terminal">TERMINAL</p>
+          <p className="console-category" id="terminal">
+            TERMINAL
+          </p>
           <p className="console-category">GITLENS</p>
         </Container>
         <div className="statement">
@@ -24,13 +26,25 @@ function About() {
         <div className="statement">
           <div className="input-statement">Matt.contactInfo</div>
           <div className="return-statement">
-            ["mttphan261@gmail.com", "LinkedIn", "Github", "Blog",
-            "Portfolio/Website"]
+            ["<a href="mailto:mttphan261@gmail.com">mttphan261@gmail.com</a>", "
+            <a href="https://www.linkedin.com/in/matthewphan261/">LinkedIn</a>",
+            "<a href="https://github.com/mttphan261">Github</a>", "
+            <a href="https://medium.com/@mttphan261">Blog</a>"]
           </div>
         </div>
         <div className="statement">
           <div className="input-statement">Matt.resume</div>
-          <div className="return-statement">"mattphan.pdf"</div>
+          <div className="return-statement">
+            "
+            <a
+              href="public/mattphan_resume.pdf"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              mattphan.pdf
+            </a>
+            "
+          </div>
         </div>
         <div className="statement">
           <div className="input-statement">Matt.interests</div>
@@ -48,9 +62,9 @@ function About() {
         <div className="statement">
           <div className="input-statement">Matt.skills</div>
           <div className="return-statement">
-            [ "Python", "JavaScript (ES6+)", "SQL", "HTML5", "CSS3", "React",
-            "Node.js", "Flask", "SQLite", "SQLAlchemy", "Git", "GitHub", "Unit
-            Testing", "Pytest"]
+            [ "Python", "JavaScript", "SQL", "HTML", "CSS", "React", "Node.js",
+            "REST APIs", "Object-Oriented Programming", "PostgreSQL",
+            "SQLAlchemy", "Git", "Unit Testing", "Pytest"]
           </div>
         </div>
       </div>
