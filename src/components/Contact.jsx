@@ -13,7 +13,7 @@ function Contact() {
           <a href="https://www.linkedin.com/in/matthewphan261/">LinkedIn</a>
         </p>
         <p className="socials">
-          <a href="mailto:mttphan261@gmail.com">github</a>
+          <a href="https://github.com/mttphan261">github</a>
         </p>
         <p className="socials">
           <a href="public/mattphan_resume.pdf" target="blank">resume</a>
