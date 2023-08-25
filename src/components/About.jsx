@@ -37,7 +37,7 @@ function About() {
           <div className="return-statement">
             "
             <a
-              href="public/mattphan_resume.pdf"
+              href="/mattphan_resume.pdf"
               target="blank"
               rel="noopener noreferrer"
             >
