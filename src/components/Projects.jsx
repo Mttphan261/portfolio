@@ -112,7 +112,7 @@ function Projects() {
                     <span className="project-skill">SQLAlchemy</span>
                     <span className="project-skill">PostgreSQL</span>
                     <div className="buttons-container">
-                    <a href="https://bitesandbrews.onrender.com/" target="blank">
+                    <a href="https://bites-and-brews.vercel.app/" target="blank">
                     <button className="demo-button">
                       View Demo
                       <FaExternalLinkAlt className="demo-icon" />
