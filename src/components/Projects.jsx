@@ -72,7 +72,7 @@ function Projects() {
                     <span className="project-skill">SQLAlchemy</span>
                     <span className="project-skill">PostgreSQL</span>
                     <div className="buttons-container">
-                    <a href="https://gunplapal.onrender.com/" target="blank">
+                    <a href="https://gunpla-pal.vercel.app/" target="blank">
                       <button className="demo-button">
                         View Demo
                         <FaExternalLinkAlt className="demo-icon" />
